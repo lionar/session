@@ -1,0 +1,34 @@
+{
+	"name": "lionar/session",
+	"version": "0.0.1",
+	"description": "Simple php session wrapper.",
+	"keywords": [ "Lionar", "Session" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"session\\": "source"
+   	 	}
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
